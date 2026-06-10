@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Metropolis;
+  src: url("font/metropolis/Metropolis-Regular.otf") format(opentype);
+}
+.main-table {
+  width: 100%;
+  max-width: 100%;
+  border: 3px solid black;
+  text-align: left;
+  border-collapse: collapse;
+}
+.main-table td,
+.main-table th {
+  border: 3px solid black;
+  padding: 26px;
+}
+.company h2 {
+  font-family: "Metropolis";
+  font-size: 32px;
+  line-height: 22px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding-bottom: 18px;
+}
+.company p {
+  font-family: "Metropolis";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.left {
+  text-align: left;
+  font-family: "Metropolis";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.split {
+  display: flex;
+  justify-content: space-between;
+}
+.table-header {
+  text-align: center;
+  font-family: "Metropolis";
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+.address {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+}
+.address p {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.desc {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+.desc td,
+.desc tr {
+  border: 3px solid black;
+  padding: 24px;
+  border-top: none;
+  border-right: none;
+}
+.item {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: center;
+}
+.item1 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: center;
+}
+.description {
+  font-family: "Inter";
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+}
+.subtotal {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.amount {
+  text-align: center;
+  font-family: "Metropolis";
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 22px;
+}
+.bottom h2 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  padding: 171px 422px;
+}

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bashita" />
+    <meta name="description" content="invoice" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Invoice Document</title>
+  </head>
+
+  <body>
+    <!-- company details -->
+    <table class="main-table">
+      <tr>
+        <td colspan="5" class="company">
+          <h2>Zylker Electronic Hub</h2>
+          <p>
+            Northern Street,<br />
+            Greater South Avenue,<br />
+            New York,<br />
+            New York 10001, USA
+          </p>
+        </td>
+      </tr>
+      <!-- invoice details -->
+      <tr>
+        <td colspan="2" class="left">
+          <div class="split">
+            <p>
+              <b>Invoice <br />Invoice Date <br />Terms<br />Due Date</b>
+            </p>
+            <p>
+              IND-00128<br />5th August,2006<br />Due on Recipt<br />19.01.2005
+            </p>
+          </div>
+        </td>
+      </tr>
+      <!-- bill to ship to heading -->
+      <tr>
+        <th colspan="2" class="table-header">Bill To</th>
+        <th colspan="3" class="table-header">Ship To</th>
+      </tr>
+      <!-- address row -->
+      <tr>
+        <td colspan="2" class="address">
+          <p>Ms. Mary D. Dunton</p>
+          <br />
+          1324 Hinkle Lake Road <br />
+          Needham <br />
+          02192 Maine
+        </td>
+
+        <td colspan="3" class="address">
+          <br /><br />1324 Hinkle Lake Road <br />
+          Needham <br />
+          02192 Maine
+        </td>
+      </tr>
+
+      <!-- product details -->
+      <tr>
+        <td colspan="5" style="padding: 0">
+          <table class="desc">
+            <tr>
+              <td class="item">#</td>
+              <td class="item">Item Description</td>
+              <td class="item">Qty</td>
+              <td class="item">Rate</td>
+              <td class="item">Amount</td>
+            </tr>
+            <tr>
+              <td class="item1">1.</td>
+              <td class="description">
+                <b>Camera</b> <br />
+                DSLR Camera with Advance Shooting Capabilities
+              </td>
+              <td class="item1">1.00</td>
+              <td class="item1">$899.00</td>
+              <td class="item1">$899.00</td>
+            </tr>
+            <tr>
+              <td class="item1">2.</td>
+              <td class="description">
+                <b>Fitness Tracker</b> <br />
+                Activity tracker with heart rate monitoring Capabilities
+              </td>
+              <td class="item1">1.00</td>
+              <td class="item1">$129.00</td>
+              <td class="item1">$129.00</td>
+            </tr>
+            <tr>
+              <td class="item1">3.</td>
+              <td class="description">
+                <b>Laptop</b> <br />
+                Lightweight laptop with powerful processor Capabilities
+              </td>
+              <td class="item1">1.00</td>
+              <td class="item1">$1,199.00</td>
+              <td class="item1">$1,199.00</td>
+            </tr>
+            <tr>
+              <td colspan="4" class="subtotal">SubTotal</td>
+              <td class="amount">$2,227.00</td>
+            </tr>
+            <!-- bottom invoice -->
+            <tr>
+              <td colspan="5" class="bottom">
+                <h2>INVOICE</h2>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
